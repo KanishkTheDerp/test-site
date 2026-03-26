@@ -1,0 +1,42 @@
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.badge--neutral {
+  color: var(--text-muted);
+}
+
+.badge--success {
+  color: var(--text-primary);
+}
+
+.button {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.55rem 1rem;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.button--primary {
+  color: var(--bg-dark);
+  background: var(--accent-primary);
+}
+
+.button--ghost {
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border-color: var(--card-border);
+}
