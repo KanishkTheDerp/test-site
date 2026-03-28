@@ -12,6 +12,16 @@ dist
 dist-ssr
 *.local
 
+# Build cache
+.next/
+tsconfig.tsbuildinfo
+
+# Windows artifacts
+nul
+
+# Local docs
+skills.md
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
